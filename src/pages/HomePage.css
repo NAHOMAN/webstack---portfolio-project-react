@@ -1,7 +1,11 @@
 .hero {
+  background-image: url('/public/images/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
   text-align: center;
-  padding: 50px;
-  background: #f4f4f4;
+  padding: 100px 20px;
+  color: #fff;
 }
 
 .hero-content {

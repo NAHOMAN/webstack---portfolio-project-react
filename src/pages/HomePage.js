@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
       {/* SEO Metadata */}
       <Helmet>
-        <title>NC Trade Personal Blog</title>
+        <title>NC4x Trade Personal Blog</title>
         <meta
           name="description"
           content="NC Traders Hub: Your go-to platform for trade insights and inspiration."
