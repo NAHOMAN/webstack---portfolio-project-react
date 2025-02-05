@@ -7,7 +7,7 @@ function Contact() {
       {/* Contact Section */}
       <section id="contact" className="contact">
         <div className="container">
-          <h2>Contact Us</h2>
+          <h1>Contact Us</h1>
           <p>If you have any questions, feel free to reach out.</p>
           
           <form className="contact-form">
