@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/webstack---portfolio-project-react/static/css/main.fd1b0ab1.css",
+    "main.css": "/webstack---portfolio-project-react/static/css/main.b128b9c0.css",
     "main.js": "/webstack---portfolio-project-react/static/js/main.0975e9cf.js",
     "static/media/hero.jpg": "/webstack---portfolio-project-react/static/media/hero.0206c5a466a7da58ebc2.jpg",
     "index.html": "/webstack---portfolio-project-react/index.html",
-    "main.fd1b0ab1.css.map": "/webstack---portfolio-project-react/static/css/main.fd1b0ab1.css.map",
+    "main.b128b9c0.css.map": "/webstack---portfolio-project-react/static/css/main.b128b9c0.css.map",
     "main.0975e9cf.js.map": "/webstack---portfolio-project-react/static/js/main.0975e9cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd1b0ab1.css",
+    "static/css/main.b128b9c0.css",
     "static/js/main.0975e9cf.js"
   ]
 }
