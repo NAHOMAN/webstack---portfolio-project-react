@@ -1,0 +1,12 @@
+.user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .logout-btn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
