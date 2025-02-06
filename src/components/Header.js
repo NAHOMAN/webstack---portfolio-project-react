@@ -1,8 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Header.css"; // Add styling if needed
 
 const Header = () => {
+  const navigate = useNavigate(); // ✅ Fix: Initialize navigate
+
   return (
     <header>
       <div className="container">
@@ -22,10 +24,11 @@ const Header = () => {
             <input type="text" id="searchInput" placeholder="Search blog posts..." />
             <button className="search-button">Search</button>
           </div>
+          
           {/* Authentication Buttons */}
           <div className="auth-buttons">
-            <button id="sign-up-btn">Sign Up</button>
-            <button id="sign-in-btn">Sign In</button>
+            <button id="sign-up-btn" onClick={() => navigate("/signup")}>Sign Up</button>
+            <button id="sign-in-btn" onClick={() => navigate("/signin")}>Sign In</button>
           </div>
         </div>
       </div>
