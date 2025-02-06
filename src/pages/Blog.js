@@ -1,5 +1,5 @@
 import React from "react";
-import posts from "../data/posts.json";  // Import posts data from the JSON file
+import posts from "../data/posts.json"; // Import posts data from the JSON file
 import "./Blog.css";
 
 function Blog() {
