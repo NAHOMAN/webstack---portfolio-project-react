@@ -6,18 +6,26 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/About";
 import BlogPage from "./pages/Blog";
 import ContactPage from "./pages/Contact";
+import Dashboard from "./pages/Dashboard"; // Adjust the path if needed
+import SignIn from "./pages/SignIn";  // Import SignIn
+import SignUp from "./pages/SignUp";  // Import SignUp
+import NotFound from "./pages/NotFound"; // Import NotFound page
 
 const App = () => {
   return (
     <Router>
-      <Header />  {/* Render Header once here */}
+      <Header />  
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/signin" element={<SignIn />} />  {/* Sign In Route */}
+        <Route path="/signup" element={<SignUp />} />  {/* Sign Up Route */}
+        <Route path="*" element={<NotFound />} />  {/* Handle 404 pages */}
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
-      <Footer />  {/* Render Footer once here */}
+      <Footer />  
     </Router>
   );
 };
