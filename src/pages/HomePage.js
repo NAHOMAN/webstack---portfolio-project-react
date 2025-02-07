@@ -67,15 +67,11 @@ const HomePage = () => {
 
             <h3>What We Offer</h3>
             <p>
-              
-                <strong>Expert Insights:</strong> Articles and analyses from seasoned traders.
-              
-              
-                <strong>Educational Resources:</strong> Enhancing trading skills for all levels.
-              
-              
-                <strong>Community Engagement:</strong> Join discussions and learn from others.
-              
+              <strong>Expert Insights:</strong> Articles and analyses from seasoned traders.
+              <br />
+              <strong>Educational Resources:</strong> Enhancing trading skills for all levels.
+              <br />
+              <strong>Community Engagement:</strong> Join discussions and learn from others.
             </p>
             <img src="/images/what-we-offer.jpg" alt="What We Offer" className="about-image" />
 
