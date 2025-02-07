@@ -48,4 +48,10 @@
   .signup-button:hover {
     background-color: #2563eb;
   }
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+  }
   
