@@ -113,9 +113,7 @@ const Dashboard = () => {
       </section>
 
       {/* Footer */}
-      <footer>
-        <p>&copy; 2024 NC4x Traders Hub. All rights reserved.</p>
-      </footer>
+      
     </div>
   );
 };
