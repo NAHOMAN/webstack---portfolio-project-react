@@ -28,13 +28,13 @@ const About = () => {
           <h2 className="text-3xl font-semibold mb-4">Meet the Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <article className="bg-gray-100 p-4 rounded-lg shadow-md">
-              <img src="/images/Nahom.jpg" width="100" height="100" alt="Nahom" className="rounded-full mb-2" />
+              <img src="Nahom.jpg" width="100" height="100" alt="Nahom" className="rounded-full mb-2" />
               <h3 className="text-xl font-bold">Nahom Nigussie</h3>
               <p className="text-gray-700">Founder & Lead Blogger</p>
               <p className="text-gray-600">Nahom is passionate about trading and dedicated to sharing his years of experience with others.</p>
             </article>
             <article className="bg-gray-100 p-4 rounded-lg shadow-md">
-              <img src="/images/Nahom.jpg" width="100" height="100" alt="Nahom" className="rounded-full mb-2" />
+              <img src="Nahom.jpg" width="100" height="100" alt="Nahom" className="rounded-full mb-2" />
               <h3 className="text-xl font-bold">Mr Nahom</h3>
               <p className="text-gray-700">Content Strategist</p>
               <p className="text-gray-600">Mr Nahom ensures that every piece of content aligns with the blog's mission to inform and inspire.</p>

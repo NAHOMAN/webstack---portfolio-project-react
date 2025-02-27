@@ -63,7 +63,7 @@ const HomePage = () => {
               Trade Personal Blog was born out of a desire to share our collective
               expertise and experiences...
             </p>
-            <img src="/our-story.jpg" alt="Our Story" className="about-image" />
+            <img src="our-story.jpg" alt="Our Story" className="about-image" />
 
             <h3>What We Offer</h3>
             <p>
@@ -73,7 +73,7 @@ const HomePage = () => {
               <br />
               <strong>Community Engagement:</strong> Join discussions and learn from others.
             </p>
-            <img src="/images/what-we-offer.jpg" alt="What We Offer" className="about-image" />
+            <img src="what-we-offer.jpg" alt="What We Offer" className="about-image" />
 
             <h3>Our Vision</h3>
             <p>
